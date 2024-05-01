@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and tourism</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="black-screen">
+        <div class="crossIcon">
+            <i id="cross-icon" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="screen-links">
+            <a href="">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#location">LOCATION</a>
+        </div>
+    </div>
+    <div class="header-section">
+
+        <div class="navbar">
+            <a href="">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#location">LOCATION</a>
+            <i id="bars-icon" class="fa-solid fa-bars-staggered"></i>
+        </div>
+    </div>
+    <div class="anton-section">
+        <div class="section-top">
+            <h1>ANTON & LILLY</h1>
+            <H2>BED & BREAKFAST</H2>
+        </div>
+        <div class="section-bottom">
+            <img src="https://www.hassuntourism.com/wp-content/uploads/2019/04/ozkaymakresot-960x636.jpg" alt="">
+        </div>
+        <div class="anton-section-text">
+            <h1>ABOUT</h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. Feel free to drag and drop me
+                anywhere you like on your page. I’m a great place for you to tell a story and let your users know a
+                little more about you.​
+
+            </p>
+        </div>
+    </div>
+    <div class="rooms-section">
+        <div class="rooms-img">
+            <img src="https://paxhotels.in/wp-content/uploads/2022/12/Ark-Dalhousie-Family-Suite-01-960x636.jpeg"
+                alt="">
+        </div>
+        <div class="rooms-text">
+            <h1>OUR ROOMS</h1>
+            <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story
+                and let your users know a little more about you.
+
+            </p>
+        </div>
+    </div>
+    <div class="section-text">
+        <h1>OUR SERVICES</h1>
+    </div>
+    <div class="services-section">
+        <div class="section-top">
+            <div class="services-box">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <h3>Breakfast</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-tree"></i>
+                <h3>Garden</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-water-ladder"></i>
+                <h3>Pool</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-wifi"></i>
+                <h3>Free Wifi</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-broom"></i>
+                <h3>Daily Housekeeping</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <h3>In-Room Dining Service</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.
+                </p>
+            </div>
+
+        </div>
+        <!-- <div class="section-bottom"> -->
+
+    </div>
+    <div class="contact-section">
+        <div class="section-top">
+            <h1>CONTACT US</h1>
+            <div class="contact-text">
+                <h2>info@mysite.com</h2>
+                <h2>500 Terry Francine Street, San Francisco, CA 94158</h2>
+                <h2>Tel: 123-456-7890</h2>
+            </div>
+        </div>
+        <div class="section-bottom">
+            <form id="contactForm" onsubmit="return validateForm()">
+
+                <div class="form-top">
+                    <div class="name">
+                        <label class="textDec" for="nameInput">Enter Your Name</label>
+                        <input id="nameInput" class="textDecoration" type="text" placeholder="Name">
+                    </div>
+                    <div class="mail">
+                        <label class="textDec" for="emailInput">Enter Your Email*</label>
+                        <input id="emailInput" class="textDecoration" type="email" placeholder="Email">
+                    </div>
+
+                </div>
+                <div class="subject">
+                    <label class="textDec" for="subjectInput">Enter Your Subject</label>
+                    <input id="subjectInput" class="textDecoration-top" type="text" placeholder="Subject">
+                </div>
+                <div class="message">
+                    <label class="textDec" for="messageInput">Enter Your Message</label>
+                    <textarea id="messageInput" class="textDecoration-bottom" placeholder="Message"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+            <p id="responseMessage"></p>
+        </div>
+    </div>
+    <div class="location-section">
+        <iframe class="loc"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.4344022078026!2d28.98866807586342!3d41.103202971337296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab68279d16fe3%3A0x5f125583ee2cf022!2sRAMS%20Park!5e0!3m2!1saz!2saz!4v1713965488498!5m2!1saz!2saz"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <div class="social-media">
+        <div class="instagram">
+            <a href="https://www.instagram.com/mr.revan13?igsh=cnRlN2ZhdDFxOXIw&utm_source=qr"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="tvitter">
+            <a href="https://x.com/mr_re0ne?s=21"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <div class="facebook">
+            <a href="https://www.facebook.com/profile.php?id=100094153117460&mibextid=JRoKGi"><i
+                    class="fa-brands fa-facebook"></i></a>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
